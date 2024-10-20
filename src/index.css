@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #498780;
+    padding: 20px 20px;
+}
+
+.navbar-name {
+    color: white;
+    font-size: 24px;
+    margin-right: auto; /* Push nav items to the left */
+}
+
+.nav-items {
+    list-style: none;
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-items li {
+    margin: 0 15px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.nav-items a:hover {
+ transform: scale(1.2);
+}
